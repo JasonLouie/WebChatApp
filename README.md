@@ -7,10 +7,10 @@ Currently, the web chat app provides the basic functionalities of sending and re
 ## Database and Tables
 Web Chat App was created and ran using XAMPP Control Panel, thus databases can only be accessed through [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/ "Link to phpmyadmin if XAMPP Control Panel is installed")
 
-## users Table
+### users Table
 Table Structure: user_id {Primary and Unique int}, unique_id {int(200)}, username {varchar(255)}, email {varchar(255)}, password {varchar(255)}, img {varchar(400)}, status {varchar(255)}
 
-## messages Table
+### messages Table
 Table Structure: msg_id {Primary and Unique int}, incoming_msg_id {int(255)}, outcoming_msg_id {int(255)}, msg {varchar(1000)}
 
 ## Files and Basic Descriptions
