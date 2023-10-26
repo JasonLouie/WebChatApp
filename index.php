@@ -20,25 +20,25 @@
             <form action="" method="post">
                 <div class="message"></div>
                 <div class="field input">
-                    <label>Username</label>
-                    <input type="text" name="username" placeholder="Username" autocomplete="off" required>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Username" autocomplete="off" required>
                 </div>
                 <div class="field input">
-                    <label>Email</label>
-                    <input type="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="off" required>
                 </div>
                 <div class="field input">
-                    <label>Password</label>
-                    <input type="password" name="password" placeholder="Enter password" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password" required>
                     <i class="fas fa-eye"></i>
                 </div>
                 <div class="field input">
-                    <label>Confirm your Password</label>
-                    <input type="password" name="repeat_password" placeholder="Confirm password" required>
+                    <label for="repeat_password">Confirm your Password</label>
+                    <input type="password" id="repeat_password" name="repeat_password" placeholder="Confirm password" required>
                 </div>
                 <div class="field image">
-                    <label>Select Profile Picture</label>
-                    <input type="file" name="image" required>
+                    <label for="image">Select Profile Picture</label>
+                    <input type="file" id="image" name="image" required>
                 </div>
                 <div class="button input">
                     <input type="submit" value="Login" name="submit">

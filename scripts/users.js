@@ -33,7 +33,7 @@ searchBar.onkeyup = ()=>{
 
 setInterval(()=>{
     let xhr = new XMLHttpRequest(); // Create XML object
-    xhr.open("GET", "php/users.php", true);
+    xhr.open("GET", "php/handle-users.php", true);
     xhr.onload = ()=>{
         if(xhr.readyState === XMLHttpRequest.DONE){
             if(xhr.status === 200){

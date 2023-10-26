@@ -20,12 +20,12 @@
             <form action="" method="post">
                 <div class="error-login"></div>
                 <div class="field input">
-                    <label>Email</label>
-                    <input type="email" name="email" placeholder="Enter your email" autocomplete="off">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="off">
                 </div>
                 <div class="field input">
-                    <label>Password</label>
-                    <input type="password" name="password" placeholder="Enter your password">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
                     <i class="fas fa-eye"></i>
                 </div>
                 <div class="button input">
